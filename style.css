@@ -1,0 +1,72 @@
+/*
+
+……(\_/)
+……( ‘_’)
+…./”"”"”"”"”"”"\======░ github.com/TrPqieR6e9d
+/”"”"”"”"”"”"”"”"”"”\
+\_@_@_@_@_@_/
+
+*/
+
+
+/* https://www.w3schools.com/HOWTO/howto_css_custom_scrollbar.asp */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0071dc; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0071dc; 
+  }
+
+  body,html {
+    height: 100% !important;
+  }
+
+form input {
+    background-color: #0072dc2a;
+    color: #0071dc;
+    border: 2px solid #0071dc;
+    width: 40%;
+}
+
+.invalid_url {
+    background-color: #dc00002a;
+    color: #dc0000;
+    border: 2px solid #dc0000;
+    text-align: center;
+    font-size: 15px !important;
+}
+
+.output {
+    background-color: #0072dc2a;
+    color: #0071dc;
+    border: 2px solid #0071dc;
+    text-align: center;
+    font-size: 15px !important;
+    overflow-x: scroll;
+}
+
+
+/*
+
+……(\_/)
+……( ‘_’)
+…./”"”"”"”"”"”"\======░ github.com/TrPqieR6e9d
+/”"”"”"”"”"”"”"”"”"”\
+\_@_@_@_@_@_/
+
+*/
+
